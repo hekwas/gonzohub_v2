@@ -21,7 +21,7 @@ local HttpService   = game:GetService("HttpService")
 local LocalPlayer   = Players.LocalPlayer
 local playerGui     = LocalPlayer:FindFirstChildOfClass("PlayerGui") or LocalPlayer:WaitForChild("PlayerGui")
 
-local DISCORD_LINK  = "https://discord.gg/chilli-hub"
+local DISCORD_LINK  = "https://discord.gg/gonzo-hub"
 local REMOTE_URL    = "https://raw.githubusercontent.com/tkhanhh/Spicy/refs/heads/main/loo"
 
 COLOR_BASE_BG       = COLOR_BASE_BG       or Color3.fromRGB(0, 0, 0)
@@ -194,7 +194,7 @@ body.Parent = card
 body.BackgroundTransparency = 1
 body.Position = UDim2.new(0, 18, 0, 60)
 body.Size = UDim2.new(1, -36, 0, 76)
-body.Text = "Join to find secret servers\nGet update announcements\nEnter giveaways"
+body.Text = "Intra pe gonzo hub pe discord"
 body.TextWrapped = true
 body.Font = Enum.Font.Gotham
 body.TextSize = 16
@@ -208,7 +208,7 @@ copyBtn.Size = UDim2.new(1, -24, 0, 38)
 copyBtn.Position = UDim2.new(0, 12, 1, -70)
 copyBtn.BackgroundColor3 = COLOR_TEAL_ON
 copyBtn.BorderSizePixel = 0
-copyBtn.Text = "Copy Discord Invite"
+copyBtn.Text = "Atat"
 copyBtn.Font = Enum.Font.GothamBlack
 copyBtn.TextSize = 16
 copyBtn.TextColor3 = Color3.fromRGB(14, 25, 38)
@@ -224,7 +224,7 @@ linkBtn.BackgroundTransparency = 1
 linkBtn.BorderSizePixel = 0
 linkBtn.Position = UDim2.new(0, 12, 1, -28)
 linkBtn.Size = UDim2.new(1, -24, 0, 18)
-linkBtn.Text = "discord.gg/chilli-hub"
+linkBtn.Text = "discord.gg/gonzo-hub"
 linkBtn.Font = Enum.Font.GothamBold
 linkBtn.TextSize = 13
 linkBtn.TextColor3 = COLOR_TEXT
@@ -271,3 +271,4 @@ end)
 
 card.Position = UDim2.new(0.5, 0, 0.31, 0)
 TweenService:Create(card, TweenInfo.new(0.18, Enum.EasingStyle.Quad, Enum.EasingDirection.Out), { Position = UDim2.new(0.5, 0, 0.34, 0) }):Play()
+
