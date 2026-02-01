@@ -114,9 +114,7 @@ card.AnchorPoint = Vector2.new(0.5, 0.5)
 card.Position = UDim2.new(0.5, 0, 0.3, 0)
 
 local top = makeTopBar(card, "Gonzo Hub")
--------local body = Instance.new("TextLabel")nbody.Parent = card
-local body = Instance.new("TextLabel")
-body.Parent = card
+local body = Instance.new("TextLabel")nbody.Parent = card
 body.BackgroundTransparency = 1
 body.Size = UDim2.new(1, -24, 1, -60)
 body.Position = UDim2.new(0, 12, 0, 50)
