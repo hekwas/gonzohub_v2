@@ -3,8 +3,8 @@ local Players = game:GetService("Players")
 local player = Players.LocalPlayer
 
 -- CONFIG
-local KEY_LINK = "https://linkvertise.com/XXXXX" -- linkul tău
-local KEY_RAW = "https://raw.githubusercontent.com/user/repo/main/key.txt"
+local KEY_LINK = "https://link-target.net/3338322/tOHfesaNVY0O" -- linkul tău
+local KEY_RAW = "GONZO-78457857829482986737896234"
 -- în key.txt pui doar: GONZO-FREE-2026
 
 -- UI
@@ -58,7 +58,7 @@ button.MouseButton1Click:Connect(function()
 
     if success and box.Text == key then
         gui:Destroy()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/user/repo/main/main.lua"))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/hekwas/gonzohub_v2/refs/heads/main/Gonzo_Hub.lua"))()
     else
         setclipboard(KEY_LINK)
         button.Text = "CHEIE INVALIDĂ (LINK COPIAT)"
