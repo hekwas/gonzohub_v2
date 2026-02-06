@@ -3,7 +3,7 @@ local Players = game:GetService("Players")
 local player = Players.LocalPlayer
 
 -- CONFIG
-local KEY_LINK = "https://work.ink/2i1E/gonzohub" -- linkul tău
+local KEY_LINK = "https://link-target.net/3338322/tOHfesaNVY0O" -- linkul tău
 local VALID_KEY = "GONZO-78457857829482986737896234"
 -- în key.txt pui doar: GONZO-FREE-2026
 
