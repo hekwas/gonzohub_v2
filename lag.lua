@@ -4,7 +4,7 @@ local player = Players.LocalPlayer
 
 -- CONFIG
 local KEY_LINK = "https://link-target.net/3338322/tOHfesaNVY0O" -- linkul tău
-local KEY_RAW = "GONZO-78457857829482986737896234"
+local VALID_KEY = "GONZO-78457857829482986737896234"
 -- în key.txt pui doar: GONZO-FREE-2026
 
 -- UI
@@ -52,11 +52,7 @@ Instance.new("UICorner", button).CornerRadius = UDim.new(0,10)
 
 -- CHECK KEY
 button.MouseButton1Click:Connect(function()
-    local success, key = pcall(function()
-        return HttpService:GetAsync(KEY_RAW)
-    end)
-
-    if success and box.Text == key then
+    if box.Text == VALID_KEY then
         gui:Destroy()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/hekwas/gonzohub_v2/refs/heads/main/Gonzo_Hub.lua"))()
     else
