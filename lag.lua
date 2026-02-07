@@ -3,8 +3,7 @@ local Players = game:GetService("Players")
 local player = Players.LocalPlayer
 
 -- CONFIG
-local KEY_LINK = "https://link-target.net/3338322/tOHfesaNVY0O" -- linkul tău
-local VALID_KEY = "GONZO-78457857829482986737896234"
+local KEY_LINK = "https://work.ink/2i1E/gonzohub-stage1" 
 -- în key.txt pui doar: GONZO-FREE-2026
 
 -- UI
@@ -27,7 +26,7 @@ title.BackgroundTransparency = 1
 title.TextColor3 = Color3.fromRGB(255,255,255)
 title.Font = Enum.Font.GothamBold
 title.TextScaled = true
-
+local VALID_KEY = "GONZO-78457857829482986737896234"
 local box = Instance.new("TextBox", frame)
 box.PlaceholderText = "Introdu cheia aici"
 box.Size = UDim2.fromScale(0.8,0.2)
